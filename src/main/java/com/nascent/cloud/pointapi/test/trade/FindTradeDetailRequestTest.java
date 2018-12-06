@@ -10,6 +10,8 @@ import java.io.IOException;
 
 public class FindTradeDetailRequestTest {
     public static void main(String [] args) throws IOException, ApiException {
+
+
         FindTradeDetailRequest request = new FindTradeDetailRequest();
         request.setBrandId(100186L);
         request.setGroupId(120910104359001L);

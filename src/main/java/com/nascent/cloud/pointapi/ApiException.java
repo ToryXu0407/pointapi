@@ -23,7 +23,6 @@ public class ApiException extends Exception {
 	}
 	public void setErrMsg(String errMsg) {
 		this.errMsg = errMsg;
-		this.errMsg = errMsg;
 	}
     
 	public ApiException() {
